@@ -1,0 +1,79 @@
+body {
+  width: 1440px;
+  height: 1699px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Avenir, "Century Gothic", sans-serif;
+  background: linear-gradient(179.5deg, #3B2A9F 50%, rgba(47, 69, 182, 0.443967) 81.32%, rgba(114, 138, 185, 0.23) 100%);
+  justify-content: center;
+  color: white;
+}
+
+.loginAdmin {
+  font-weight: 100;
+  font-style: normal;
+  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin-left: 300px;
+  margin-top: 100px;
+
+}
+
+.rectangle {
+  height: 940px;
+  top: 100px;
+  width: 1440px;
+  opacity: 0.5;
+  border-radius: 20px;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.image-overlay {
+  position: absolute;
+  width: 1440px;
+  height: 940px;
+  border-radius: 20px;
+  background: rgba(28, 20, 15, 0.4);
+  top: 100px;
+  justify-content: center;
+
+}
+
+.login-container {
+  align-self: center;
+  width: 1440px;
+  height: 200px;
+  justify-content: center;
+  font-family: inherit;
+  margin-top: 150px;
+  margin-left: 300px;
+
+}
+
+.btn {
+  align-self: center;
+  background-color: #7c4a14;
+  border-radius: 8px;
+  height: 50px;
+  width: 190px;
+  margin-left: 275px;
+  margin-top: 50px;
+}
+
+.text-wrapper {
+  color: #ff9581;
+  font-family: "Poppins-ExtraBold", Helvetica;
+  font-size: 29px;
+  font-weight: 800;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 300px;
+  margin-left: 250px;
+  text-align: center;
+  top: 0;
+  width: 306px;
+}
+

@@ -1,0 +1,95 @@
+body {
+    position: relative;
+    width: 1440px;
+    height: 1699px;
+    background: linear-gradient(179.5deg, #3B2A9F 33.88%, rgba(47, 69, 182, 0.443967) 81.32%, rgba(114, 138, 185, 0.23) 99.57%);
+}
+
+.admin {
+    font-family: Avenir, "Century Gothic", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: rgb(179, 25, 25);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(179.5deg, #3B2A9F 33.88%, rgba(47, 69, 182, 0.443967) 81.32%, rgba(114, 138, 185, 0.23) 99.57%);
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  
+
+.navbar-brand {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.container {
+    padding: 10px;
+    margin-top: 80px;
+    /* Adjust this margin value to your preference */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+.small-container {
+    backdrop-filter: blur(2px);
+  border: 1px solid rgba(153, 153, 153, 0.497);
+  background-color: rgb(241, 231, 226);
+  color: black;
+  border-radius: 20px;
+  display: flex;
+  width: 500px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5px;
+  padding: 15px;
+  margin: 110px;
+  transition: margin-top 0.5s ease;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .logo {
+    height: 70px;
+  }
+  
