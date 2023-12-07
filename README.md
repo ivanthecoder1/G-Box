@@ -1,6 +1,6 @@
 # Application Name: G-Box
 
-### Project description:
+### Description:
 - A game launcher where users can go on and play games (solitaire, checkers, minesweeper, pac-man, etc)
 - Admins are able to add/remove/edit games
 - User can login through SteamAPI and play video games listed on application 
