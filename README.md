@@ -6,7 +6,7 @@ A game launcher where users can go on and play games (solitaire, checkers, mines
 - Users can login through SteamAPI
 - Admins are able to add, edit, and remove games
 - Users can play video games listed on the application
-- **Tech Stack:** React.js, Javascript, HTML/CSS, MongoDB, Node.js, Express.js, SteamAPI
+- **Tech Stack:** Vite, React.js, Javascript, HTML/CSS, MongoDB, Node.js, Express.js, SteamAPI
 
 ## Website Look
 | Login View  | Home View | Game View |
